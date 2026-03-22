@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #d3953f, #cc5c37);
+    }
+                 body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  background: linear-gradient(rgba(129, 67, 67, 0.5), rgba(0,0,0,0.5)),
+              url('background.jpeg'); 
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+    /* Navbar */
+    .navbar {
+      background: #832f16;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .navbar a {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* About Box */
+    .about-box {
+        
+      background:  #832f16;
+      max-width: 600px;
+      margin: 80px auto;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    .about-box h1 {
+      color: #000000;
+      margin-bottom: 15px;
+    }
+
+    .about-box p {
+      font-size: 17px;
+      color: #030101;
+      line-height: 1.6;
+    }
+
+    .about-box:hover {
+      transform: scale(1.03);
+      transition: 0.3s;
+    }
+    @media (max-width: 768px) {
+
+  .menu-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-box, .contact-box {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .navbar a {
+    display: block;
+    margin: 10px 0;
+  }
+
+}
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="navbar.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  
+
+  <!-- About Content -->
+  <div class="about-box">
+    <h1>About Us</h1>
+    <p>
+      Welcome to our Food Website! We provide a variety of delicious dishes including Gujarati, Punjabi, Chinese, South Indian and more. 
+      Our mission is to deliver tasty, fresh and high-quality food to our customers. 
+      We believe in great taste, hygiene and customer satisfaction.
+    </p>
+  </div>
+
+
+  
+</body>
+</html>
